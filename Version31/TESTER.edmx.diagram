@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c81b12fe48ef458badfa1b220570fca5" Name="Diagram1">
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.AspNetRoleClaim" Width="1.5" PointX="10.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.AspNetRole" Width="1.5" PointX="8.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.AspNetUserClaim" Width="1.5" PointX="12.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.AspNetUserLogin" Width="1.5" PointX="12.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.AspNetUser" Width="1.5" PointX="10.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.AspNetUserToken" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.Duration" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.Exercise" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.Log" Width="1.5" PointX="5.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.Patient" Width="1.5" PointX="8.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.Physician" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.RX" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhytRXTestwithASPschema5Model.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_AspNetRoleClaims_AspNetRoles_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_AspNetUserClaims_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_AspNetUserLogins_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_AspNetUsers_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_Duration_Exercise" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_Exercise_RX" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_Logs_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_Logs_Physicians" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_Logs_RX" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_Patient_Physicians" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_Patient_RX" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.FK_Physicians_RX" ManuallyRouted="false" />
+        <AssociationConnector Association="PhytRXTestwithASPschema5Model.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
